@@ -1,0 +1,68 @@
+/* Fonte primária e secundária do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Playfair+Display:ital,wght@1,700&display=swap');
+
+/* Seletor universal opcional */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Seletor por elemento */
+body {
+  background-color: #eef6f9;
+  font-family: 'Roboto', sans-serif;
+  color: #2c3e50;
+  padding: 20px;
+}
+
+/* Seletor por ID */
+#titulo-principal {
+  font-family: 'Playfair Display', serif;
+  font-size: 2em;
+  color: #00796b;
+  text-align: center;
+  text-decoration: underline; /* 1ª decoração */
+  margin-bottom: 20px;
+}
+
+/* Seletor por classe */
+.caixa-resumo {
+  background-color: #b2dfdb;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-style: italic; /* 1º estilo de fonte */
+}
+
+/* Seletor por atributo */
+a[target="_blank"] {
+  color: #1565c0;
+  font-weight: bold; /* 2º estilo de fonte */
+  text-decoration: overline; /* 2ª decoração */
+}
+
+/* Seletor por pseudo-classe */
+a:hover {
+  color: #d84315;
+  text-decoration: line-through; /* 3ª decoração */
+}
+
+/* Estilização de listas */
+ol, ul {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+/* Estilo da imagem de perfil */
+figure img {
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Figcaption com classe personalizada */
+figcaption {
+  text-align: center;
+  font-style: italic;
+  margin-top: 5px;
+}
